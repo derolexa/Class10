@@ -27,7 +27,7 @@ public class EthernetAdapter extends Device{
 
     @Override
     public String toString() {
-        return "Monitor: manufacturer = " + getManufacturer() + ", price = " + getPrice() +
+        return "EthernetAdapter: manufacturer = " + getManufacturer() + ", price = " + getPrice() +
                 ", serialNumber = " + getSerialNumber() + ", speed = " + getSpeed() + "mac = " + getMac();
     }
 }
